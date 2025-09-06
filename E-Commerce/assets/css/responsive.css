@@ -1,0 +1,173 @@
+/* ---------- Large Laptops / Tablets (≤ 1024px) ---------- */
+@media (max-width: 1024px) {
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    min-height: 480px;
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 3.2rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1.3rem;
+  }
+  /* ✅ Offers section */
+  .offers {
+    padding: 6rem 0;
+  }
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 3rem;
+  }
+  .offers .offer-box .offer-info .offer-title-1 {
+    font-size: 1rem;
+  }
+
+  /* special css  */
+
+  .special .countdown-container .countdown-counter li {
+    padding: 1.5rem 1rem;
+  }
+
+  .testimonials .carousel-control-prev {
+    left: 0.5rem;   /* 👈 screen ke bilkul andar */
+  }
+  .testimonials .carousel-control-next {
+    right: 0.5rem;  /* 👉 screen ke bilkul andar */
+  }
+}
+
+/* ---------- Tablets Portrait (≤ 768px) ---------- */
+@media (max-width: 768px) {
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    min-height: 380px;
+  }
+  .home .home-banner .home-banner-text {
+    width: 90%;
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 2.5rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1.1rem;
+  }
+  .home .slider-icon {
+    font-size: 2rem;
+  }
+  /* ✅ Offers section */
+  .offers {
+    padding: 4rem 0;
+  }
+  .offers .offer-box {
+    margin-bottom: 2rem;
+  }
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 2.5rem;
+  }
+  .offers .offer-box .offer-info .offer-title-1 {
+    font-size: 0.95rem;
+  }
+
+  .special .countdown-container {
+    padding-bottom: 2rem;
+  }
+
+  /* testimonilas css  */
+
+  .testimonials .testimonials-wrapper {
+    padding: 1rem;  
+  }
+
+   .navbar-toggler {
+    /* margin-left: 0.5rem;  */
+    margin-right: 0.5rem;  
+  }
+
+    #scrollup {
+         margin-right: 0.5rem; 
+    /* right: 5%;    */
+    /* bottom: 6%;   / */
+  }
+}
+
+/* ---------- Mobile (≤ 576px) ---------- */
+@media (max-width: 576px) {
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    min-height: 320px;
+  }
+  .home .home-banner .home-banner-text {
+    width: 95%;
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 2rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 1rem;
+  }
+  .home .home-banner .home-banner-text .btn-danger {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  .home .slider-icon {
+    font-size: 1.5rem;
+  }
+  /* ✅ Offers section */
+  .offers {
+    padding: 3rem 0;
+  }
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 2rem;
+  }
+  .offers .offer-box .offer-info .offer-title-1 {
+    font-size: 0.9rem;
+  }
+  .offers .offer-box .offer-info .btn-outline-danger {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+
+  .products .up_to_content h2 {
+    font-size: 0.75rem;
+  }
+
+   /* testimonilas css  */
+
+  .testimonials .testimonials-wrapper {
+    padding: 1rem;  
+  }
+
+    #scrollup {
+    right: 5%;
+    bottom: 6%;
+    height: 2.5rem;
+    width: 2.3rem;
+  }
+  #scrollup span {
+    font-size: 1.2rem; /* arrow chhota aur readable */
+    line-height: 2.3rem;
+  }
+}
+
+/* ---------- Extra Small (≤ 360px) ---------- */
+@media (max-width: 360px) {
+  .home .home-banner-1,
+  .home .home-banner-2 {
+    min-height: 280px;
+  }
+  .home .home-banner .home-banner-text h1 {
+    font-size: 1.6rem;
+  }
+  .home .home-banner .home-banner-text h2 {
+    font-size: 0.9rem;
+  }
+  /* ✅ Offers section */
+  .offers {
+    padding: 2rem 0;
+  }
+  .offers .offer-box .offer-info .heading-bigger {
+    font-size: 1.5rem;
+  }
+  .offers .offer-box .offer-info .offer-title-1 {
+    font-size: 0.8rem;
+  }
+}
